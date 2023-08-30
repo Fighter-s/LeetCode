@@ -9,7 +9,6 @@ public class Solution1894找到需要补充粉笔的学生编号 {
         long count = 0;
         for (int i = 0; i < chalk.length; i++) {
             count += chalk[i];
-
         }
 
         k = (int) (k % count);
