@@ -1,8 +1,8 @@
 package com.leetcode;
 
 public class ListNode {
-    int val;
-    ListNode next;
+    public  int val;
+    public  ListNode next;
 
     public int getVal() {
         return val;
